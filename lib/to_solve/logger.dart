@@ -1,6 +1,4 @@
-import 'package:solid_idp/refactor/interfaces/logger_interface.dart';
-
-class Logger implements LoggerInterface {
+class Logger {
   log(String? msg) {
     print(msg);
   }
